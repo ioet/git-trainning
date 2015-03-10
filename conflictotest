@@ -2,7 +2,7 @@ Prueba de archivo en conflicto.
 Se va hacer una prueba con una funcion.
 
 function suma(a,b){
-	console.log('Sumando a='+a+' + b='+b);
+	console.log(cambio zitrocorp);
 	return a+b;
 }
 
