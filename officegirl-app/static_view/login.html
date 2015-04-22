@@ -5,6 +5,20 @@
 	 <link href="css/bootstrap.min.css" rel="stylesheet">
 	 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	 <link href="css/styles.css" rel="stylesheet">
+
+<script type="text/javascript">
+    function showContent() {
+        element = document.getElementById("content");
+        check = document.getElementById("check");
+        if (check.checked) {
+            element.style.display='block';
+        }
+        else {
+            element.style.display='none';
+        }
+    }
+</script>
+
 </head>
 <body>
 	<div class="container">
@@ -14,15 +28,21 @@
             <h4>Bienvenido.</h4>
             <input type="text" id="userName" class="form-control input-sm chat-input" placeholder="usuario" />
             </br>
-            <input type="text" id="userPassword" class="form-control input-sm chat-input" placeholder="contraseña" />
+            <input type="text" id="userPassword" class="form-control input-sm chat-input" placeholder="contrase&ntilde;a" />
             </br>
             <div class="wrapper">
             <span class="group-btn">     
-                <a href="#" class="btn btn-primary btn-md">login <i class="fa fa-sign-in"></i></a>
+                <a href="#" class="btn btn-primary btn-md">Inicio <i class="fa fa-sign-in"></i></a>
             </span>
             </div>
+            <div class="checkbox">
+    		<label>
+      			<input type="checkbox" name="check" id="check" value="1" onchange="javascript:showContent()" />Segunda Verificaci&oacute;n 
+    		</label>
             </div>
-        
+        	<div id="content" style="display: none;">
+   			<p><input type="text" id="userName" class="form-control input-sm chat-input" placeholder="xxx-xxx-xx" /></p>
+ </div>
         </div>
     </div>
 </div>
