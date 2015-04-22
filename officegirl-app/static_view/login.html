@@ -3,25 +3,29 @@
 <head>
 	<title></title>
 	 <link href="css/bootstrap.min.css" rel="stylesheet">
+	 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	 <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
 	<div class="container">
-
-      <form class="form-signin">
-        <center><h2 class="form-signin-heading">Ingrese sus datos</h2></center>
-        <label for="inputEmail" class="sr-only">Correo Electronico</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <label for="inputPassword" class="sr-only">Contraseña</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Recordar sus Datos
-          </label>
+    <div class="row">
+        <div class="col-md-offset-5 col-md-3">
+            <div class="form-login">
+            <h4>Bienvenido.</h4>
+            <input type="text" id="userName" class="form-control input-sm chat-input" placeholder="usuario" />
+            </br>
+            <input type="text" id="userPassword" class="form-control input-sm chat-input" placeholder="contraseña" />
+            </br>
+            <div class="wrapper">
+            <span class="group-btn">     
+                <a href="#" class="btn btn-primary btn-md">login <i class="fa fa-sign-in"></i></a>
+            </span>
+            </div>
+            </div>
+        
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
-      </form>
-
     </div>
+</div>
 
 </body>
 </html>
