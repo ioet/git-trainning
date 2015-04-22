@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	 <link href="css/bootstrap.min.css" rel="stylesheet">
-	 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	 <link href="css/styles.css" rel="stylesheet">
+  <head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header class="hero-unit">
+          <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Inicio</span>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#informacion">Informacion</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#registrate">Registrate</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contacto">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<script type="text/javascript">
-    function showContent() {
-        element = document.getElementById("content");
-        check = document.getElementById("check");
-        if (check.checked) {
-            element.style.display='block';
-        }
-        else {
-            element.style.display='none';
-        }
-    }
-</script>
-
-</head>
-<body>
-	<div class="container">
+<!-- formulario -->
+  <div class="container">
     <div class="row">
         <div class="col-md-offset-3 col-md-6">
             <div class="form-login">
@@ -35,17 +54,34 @@
                 <a href="#" class="btn btn-primary  btn-block">Inicio <i class="fa fa-sign-in"></i></a>
             </span>
             </div>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
             <div class="checkbox">
-    		<label>
-      			<input type="checkbox" name="check" id="check" value="1" onchange="javascript:showContent()" />Segunda Verificaci&oacute;n 
-    		</label>
+        <label>
+            <input type="checkbox" name="check" id="check" value="1" onchange="javascript:showContent()" />Segunda Verificaci&oacute;n 
+        </label>
             </div>
-        	<div id="content" style="display: none;">
-   			<p><input type="text" id="VSecond" class="form-control input-sm chat-input" placeholder="xxx-xxx-xx" /></p>
- 			</div>
+          <div class="aparece" id="content" style="display: none;">
+        <p><input type="text" id="VSecond" class="form-control input-sm chat-input" placeholder="xxx-xxx-xx" /></p>
+      </div>
         </div>
     </div>
 </div>
 
-</body>
+
+
+        </header>
+      </div>
+      <div class="push"><!--//--></div>
+    </div>
+    <footer>
+      <div class="container">
+        <p>Pantalla de login de pruebas</p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>
