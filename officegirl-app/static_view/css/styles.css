@@ -6,9 +6,10 @@ body {
 }
 
 .container {
-    padding: 15px;
+    padding: 25px;
    
 }
+
 
 .form-login {
     background-color: #EDEDED;
@@ -60,6 +61,4 @@ h4 {
             padding-top: 8%;
         }
 
-        .btn-primary {
-            background: #222;
-        }
+        
