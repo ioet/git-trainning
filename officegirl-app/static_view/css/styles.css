@@ -58,7 +58,7 @@ footer {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -120px;
+    /*margin: 0 auto -120px;*/
     text-align: center;
 }
 
