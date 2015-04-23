@@ -71,3 +71,31 @@ h4 {
         .copy{
             text-align: right;
         }
+
+
+.div-form-suscripcion {
+    padding-left: 30%;
+}
+
+
+
+.suscripcion-email .text {
+    float: left;
+    width: 60%;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    color: #666;
+    background: #F0F0F0;
+}
+
+
+.suscripcion-email .boton {
+    width: 15%;
+    height: 40px;
+    border: 1px;
+    color: #FFF;
+    position: absolute;
+    background: #A4A4A4 url("../img/newsletter2.png") no-repeat scroll center center;
+}
+
