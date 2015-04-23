@@ -12,10 +12,9 @@ body {
 .avatar{
     width: 100px;height: 100px;
     margin: 10px auto 30px;
-    border-radius: 100%;
-    border: 2px solid #aaa;
- 
-    background: url(../img/logo.png);
+   
+    max-width: 100%;
+    background: url(../img/logo.png) no-repeat scroll center center;
 }
 
 .form-login {
