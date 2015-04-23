@@ -40,36 +40,36 @@ h4 {
     border-radius: 10px;
 
 }
-        html {
-            height: 100%;
-        }
+
+html {
+    height: 100%;
+}
 
 
-        footer {
-            color: #666;
-            background: #222;
-            padding: 17px 0 18px 0;
-            border-top: 1px solid #000;
-        }
+footer {
+    color: #666;
+    background: #222;
+    height: 120px;
+    border-top: 1px solid #000;
+}
 
-        .wrapper {
-            min-height: 100%;
-            height: auto !important;
-            height: 100%;
-            margin: 0 auto -63px;
-            text-align: center;
-        }
-        .push {
-            height: 63px;
-        }
-        /* not required for sticky footer; just pushes hero down a bit */
-        .wrapper > .container {
-            padding-top: 8%;
-        }
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /*margin: 0 auto -120px;*/
+    text-align: center;
+}
 
-        .copy{
-            text-align: right;
-        }
+/* not required for sticky footer; just pushes hero down a bit */
+.wrapper > .container {
+    padding-top: 8%;
+}
+
+
+.copy{
+
+}
 
 
 .div-form-suscripcion {
@@ -95,6 +95,6 @@ h4 {
     border: 1px;
     color: #FFF;
     position: absolute;
-    background: #A4A4A4 url("../img/newsletter2.png") no-repeat scroll center center;
+    background: #A4A4A4 url("../img/newsletter.png") no-repeat scroll center center;
 }
 
