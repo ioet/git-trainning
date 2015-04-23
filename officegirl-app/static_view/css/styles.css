@@ -5,14 +5,16 @@ body {
   height: 100%;
 }
 
+
 .container {
     
    
 }
 .avatar{
-    width: 125px;height: 125px;
+    width: 100px;height: 100px;
     margin: 10px auto 30px;
-    
+    border-radius: 100%;
+    border: 2px solid #aaa;
  
     background: url(../img/logo.png);
 }
@@ -27,6 +29,7 @@ body {
     border-color:#d2d2d2;
     border-width: 20px;
     box-shadow:0 1px 0 #cfcfcf;
+
 }
 
 h4 { 
@@ -47,19 +50,23 @@ html {
 
 
 footer {
-    margin-top: 10px;
+    text-align: left;
+    margin-top: 20px;
+    padding-top: 20px;
     color: #666;
     background: #222;
-    height: 100px;
+    height: 120px;
     border-top: 1px solid #000;
+
 }
 
 .wrapper {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -120px;
+    margin: 0 auto -140px;
     text-align: center;
+    
 }
 
 /* not required for sticky footer; just pushes hero down a bit */
@@ -69,7 +76,7 @@ footer {
 
 
 .copy{
-
+    padding-top: 30px;
 }
 
 
