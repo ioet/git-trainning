@@ -6,9 +6,10 @@ body {
 }
 
 .container {
-    padding: 15px;
+    padding: 25px;
    
 }
+
 
 .form-login {
     background-color: #EDEDED;
@@ -60,11 +61,9 @@ h4 {
             padding-top: 8%;
         }
 
-        .btn-primary {
-            background: #222;
+        .copy{
+            text-align: right;
         }
-
-
 
 
 .div-form-suscripcion {
@@ -92,3 +91,4 @@ h4 {
     position: absolute;
     background: #A4A4A4 url("../img/newsletter2.png") no-repeat scroll center center;
 }
+
