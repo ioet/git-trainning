@@ -3,7 +3,7 @@
  * Adapta el footer de acuerdo 
  * al tamaño de la ventana
  */
-function onRezize(){
+function onResize(){
 	onLoad();
 }
 
