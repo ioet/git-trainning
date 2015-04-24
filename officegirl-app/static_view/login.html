@@ -3,135 +3,122 @@
   <head>
     <meta charset="utf-8" />
     <title>Login</title>
-
-    <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
-    <!-- endbower -->
-
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
-
     <link rel="shortcut icon" href="img/logo.png" type="image/png" />
   </head>
-  <body onresize="onResize()" onload="onLoad()">
-    <div class="wrapper" >
+  <body>
+    <div class="wrapper">
       <div class="container">
         <header class="hero-unit">
-              <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main-collapse">
-                            <span class="sr-only">Desplegar navegación</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand page-scroll" href="#page-top">
-                            <i class="fa fa-play-circle"></i>  <span class="light">Inicio</span>
-                        </a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbar-main-collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="hidden">
-                                <a href="#page-top"></a>
-                            </li>
-                            <li>
-                                <a class="page-scroll" href="#informacion">Informacion</a>
-                            </li>
-                            <li>
-                                <a class="page-scroll" href="#registrate">Registrate</a>
-                            </li>
-                            <li>
-                                <a class="page-scroll" href="#contacto">Contactos</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
 
-         </header>
 
-  <!-- formulario -->
-    <div class="container">
-      <div class="row">
-          <div class="col-md-4 col-md-offset-4">
-                <div class="form-login">
-          <form role="form">
-              
-              <legend >Bienvenido</legend>
-              <div class="avatar"></div>
-
-              <div class="form-group">
-                  
-                  <input type="email" class="form-control" id="email"
-                      placeholder="Introduce tu email">
-                 
-               </div>
-              <div class="form-group">
-              
-              <input type="password" class="form-control" id="password" 
-                   placeholder="Contraseña">
-              
-              </div>
-                <div class="checkbox">
-                      <label>
-                          <input type="checkbox" id="check" onchange="showContent()"> Segunda Verificaci&oacute;n
-                      </label>
-               </div>
-              <div class="form-group" id="content" style="display: none;">
-                  <input type="text" id="VSecond" class="form-control" placeholder="xxx-xxx-xx" />
-              </div>
-              <button type="submit" class="btn btn-primary btn-block">Enviar</button>
-
-              </form>
-              </div>
-          </div>
-      </div>   
-    </div>
-    
-
-    <div class="push">
-    <!--//-->
-    </div>
-    </div>
-
-  </div>
-      <footer >
+          <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="row">
-              <div class="col-xs-6">
-                  <div class="copy">
-                    <p>OfficeGirl App
-                      <a href="#">&copy; ioet 2015</a>
-                    </p>
-                  </div>
-                  
-              </div>
-              <div class="col-xs-6">
-                  
-                  <div class="div-form-suscripcion">
-                      <p>Suscribirse al Newsletter </p>
-                      <form action="" class="suscripcion-email" novalidate="">
-                          <input value="" placeholder="Introduce tu correo electrónico" size="50" class="text" type="email">
-                          <input value="" name="subscribe" class="boton" type="submit">
-                      </form>
-                  </div>
-              </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main-collapse">
+                    <span class="sr-only">Desplegar navegación</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Inicio</span>
+                </a>
             </div>
-
+            <div class="collapse navbar-collapse" id="navbar-main-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#informacion">Informacion</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#registrate">Registrate</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contacto">Contactos</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </footer >
-      
+    </nav>
 
-      <!-- bower:js -->
-      <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-      <script type="text/javascript"src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-      <!-- endbower -->
+ </header>
+
+<!-- formulario -->
+  <div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+              <div class="form-login">
+        <form role="form">
+            
+            <legend >Bienvenido</legend>
+            <div class="avatar"></div>
+
+            <div class="form-group">
+                
+                <input type="email" class="form-control" id="email"
+                    placeholder="Introduce tu email">
+               
+             </div>
+            <div class="form-group">
+            
+            <input type="password" class="form-control" id="password" 
+                 placeholder="Contraseña">
+            
+            </div>
+              <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="check" onchange="javascript:showContent()"> Segunda Verificaci&oacute;n
+                    </label>
+             </div>
+            <div class="form-group" id="content" style="display: none;">
+                <input type="text" id="VSecond" class="form-control" placeholder="xxx-xxx-xx" />
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+
+            </form>
+            </div>
+        </div>
+    </div>
+  
+      </div>
+      <div class="push"><!--//--></div>
+    </div>
 
 
+    <footer >
+        
+               <div class="container">
+          <div class="row">
+            <div class="col-xs-6">
+                
+                <p>OfficeGirl App
+                    <div class="copy">
+                        &copy; 
+                        <a href="#">ioet 2015</a>
+                    </div>
+                </p>
+                
+            </div>
+            <div class="col-xs-6">
+                
+                <div class="div-form-suscripcion">
+                    <p>Suscribirse al Newsletter </p>
+                    <form action="" class="suscripcion-email" novalidate="">
+                        <input value="" placeholder="Introduce tu correo electrónico" size="50" class="text" type="email">
+                        <input value="" name="subscribe" class="boton" type="submit">
+                    </form>
+                </div>
+            </div>
+          </div>
 
+      </div>
+    </footer >
     <script type="text/javascript" src="js/script.js"></script>
-
-
-
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript"src="js/bootstrap.min.js"></script>
   </body>
 </html>
