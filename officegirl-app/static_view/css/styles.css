@@ -33,10 +33,9 @@ footer {
    
 }
 .avatar{
-    width: 100px;height: 100px;
+    width: 125px;height: 125px;
     margin: 10px auto 30px;
-    border-radius: 100%;
-    border: 2px solid #aaa;
+   
  
     background: url(../img/logo.png);
 }
