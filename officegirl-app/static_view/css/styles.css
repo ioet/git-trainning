@@ -3,64 +3,58 @@ html {
 }
 
 body {
-  background-color:#fff;
-  -webkit-font-smoothing: antialiased;
-  font: normal 14px Roboto,arial,sans-serif;
-  height: 100%;
+    background-color:#fff;
+    font: normal 14px Roboto,arial,sans-serif;
+    height: 100%;
 }
 
 h4 { 
- border:0 solid #fff; 
- border-bottom-width:1px;
- padding-bottom:15px;
- text-align: center;
+    border:0 solid #fff; 
+    border-bottom-width:1px;
+    padding-bottom:15px;
+    text-align: center;
 }
-
 
 footer {
     text-align: left;
-    margin-top: 20px;
     padding-top: 20px;
     color: #666;
     background: #222;
     height: 120px;
     border-top: 1px solid #000;
-
 }
 
-.container {
-    
-   
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
 }
+
 .avatar{
-    width: 125px;height: 125px;
-    margin: 10px auto 30px;
-   
- 
-    background: url(../img/logo.png);
+    width: 125px;
+    height: 125px;
+    margin: 10px auto 20px auto;
+    background: url(../img/logo.png) no-repeat scroll center center;
 }
 
 .form-login {
     background-color: #EDEDED;
-    padding-top: 10%;
-    padding-bottom: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 35px;
-    border-color:#d2d2d2;
-    border-width: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
     box-shadow:0 1px 0 #cfcfcf;
-
+    margin-top: 2%;
 }
 
-
+.form-title{
+    font-size: 24px;
+    font-weight: bold;
+}
 
 .form-control {
     border-radius: 10px;
-
 }
-
-
 
 .wrapper {
     min-height: 100%;
@@ -69,44 +63,18 @@ footer {
     margin-top: 0px;
     margin-right: auto;
     text-align: center;
-
 }
-
-
-.wrapper > .container {
-    padding-top: 8%;
-}
-
-
 
 .copy{
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-left: 10%;
 }
 
 
-.div-form-suscripcion {
-    padding-left: 30%;
+.div-form-social {
+    text-align: center;
+    padding-left: 10%;
 }
 
 
-
-.suscripcion-email .text {
-    float: left;
-    width: 60%;
-    height: 40px;
-    border: none;
-    font-size: 15px;
-    color: #666;
-    background: #F0F0F0;
-}
-
-
-.suscripcion-email .boton {
-    width: 15%;
-    height: 40px;
-    border: 1px;
-    color: #FFF;
-    position: absolute;
-    background: #A4A4A4 url("../img/newsletter.png") no-repeat scroll center center;
-}
 
