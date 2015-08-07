@@ -6,4 +6,6 @@ function suma(a,b){
 	return a+b;
 }
 
+aqui va un for
+
 final del archivo
