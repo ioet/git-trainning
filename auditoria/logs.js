@@ -1,1 +1,5 @@
-var l = "Presentacion de Logs"
+var l = "Presentacion de Logs";
+
+alert('INICIANDO SISTEMA');
+
+
